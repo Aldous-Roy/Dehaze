@@ -1,11 +1,11 @@
 import React from'react'
 import './App.css'
-
+import Comp from './pages/Comp'
 function App() {
   return (
     <>
     <div>
-      <h1 className='text-3xl text-center'>Hello World</h1>
+      <Comp />
     </div>
     </>
   )
