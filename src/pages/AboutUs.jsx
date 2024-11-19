@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
   const teamMembers = [
     {
-      name: "Vetri Selvi M",
+      name: "Vetriselvi M",
       designation: "Member 1",
       description: "A seasoned professional with over 10 years of experience in image processing and management.",
       image: "/src/assets/Unknown.jpg" 
