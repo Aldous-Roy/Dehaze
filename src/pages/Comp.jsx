@@ -1,8 +1,8 @@
 import React from 'react'
 import ImageComparison from '../components/ImageComparison';
 const Comp = () => {
-    const img1 = '/src/assets/Unknown.jpg'; // Replace with the path to the first image
-    const img2 = '/src/assets/Unknown.jpg'; // Replace with the path to the second image
+    const img1 = '/src/assets/Unknown.jpg'; 
+    const img2 = '/src/assets/Unknown.jpg';
 
   return (
     <div>

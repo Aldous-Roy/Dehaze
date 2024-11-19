@@ -9,7 +9,6 @@ const PatentPage = () => {
     registeredIn: "India Patent Office",
     img:"/src/assets/Ip.png"
   };
-
   return (
     <div className="bg-gray-50 py-16 mt-5">
       <div className="container mx-auto text-center">

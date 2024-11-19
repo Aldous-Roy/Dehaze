@@ -4,7 +4,6 @@ import Comp from './Comp';
 const Homepage = () => {
   return (
     <div className="bg-light-gray">
-      {/* Hero Section */}
       <section className="bg-teal-600 text-white py-20">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Clear Your Vision</h1>
@@ -14,8 +13,6 @@ const Homepage = () => {
           </button>
         </div>
       </section>
-
-      {/* Services Section */}
       <section className="py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Our Services</h2>
@@ -41,8 +38,6 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-
-      {/* Gallery Section */}
       <section className="py-16 bg-light-gray">
         <Comp />
       </section>
