@@ -10,13 +10,13 @@ const Navbar = () => {
             <a href="#home" className="hover:text-coral transition duration-300">Home</a>
           </li>
           <li>
-            <a href="#services" className="hover:text-coral transition duration-300">Services</a>
+            <a href="#services" className="hover:text-coral transition duration-300">Patent</a>
           </li>
           <li>
-            <a href="#about" className="hover:text-coral transition duration-300">About Us</a>
+            <a href="#about" className="hover:text-coral transition duration-300">Project</a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-coral transition duration-300">Contact</a>
+            <a href="#contact" className="hover:text-coral transition duration-300">About Us</a>
           </li>
         </ul>
       </div>
