@@ -3,22 +3,22 @@ import React from 'react';
 const AboutUs = () => {
   const teamMembers = [
     {
-      name: "Alice Johnson",
+      name: "Vetri Selvi M",
       designation: "Member 1",
       description: "A seasoned professional with over 10 years of experience in image processing and management.",
-      image: "./src/assets/Unknown.jpg" 
+      image: "/src/assets/Unknown.jpg" 
     },
     {
       name: "Aldous Roy",
       designation: "Member 2",
       description: "Innovative and Creative web developer and a machine learnering enthusiast with a passion for learning.",
-      image: "./src/assets/aldous.jpeg" 
+      image: "/src/assets/aldous.jpeg" 
     },
     {
-      name: "Carol White",
+      name: "Janani VS",
       designation: "Member 3",
       description: "Specializes in visual design and user experience, ensuring clarity in our services.",
-      image: "./src/assets/Unknown.jpg"
+      image: "/src/assets/Unknown.jpg"
     }
   ];
 

@@ -7,7 +7,7 @@ const PatentPage = () => {
     description: "This patent covers innovative algorithms and methods for removing haze from images, enhancing clarity and detail in photographs.",
     registrationDate: "18 October 2024",
     registeredIn: "India Patent Office",
-    img:"./src/assets/Ip.png"
+    img:"/src/assets/Ip.png"
   };
 
   return (
