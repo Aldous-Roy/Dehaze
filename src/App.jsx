@@ -1,18 +1,21 @@
-import React from'react'
-import './App.css'
-import Homepage from './pages/Homepage'
-import AboutUs from './pages/AboutUs'
-import Navbar from './components/Navbar'
-import PatentPage from './pages/PatentPage'
-function App() {
-  return (
-    <>
-    <div>
-      <Navbar />
-      <PatentPage />
-    </div>
-    </>
-  )
-}
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Homepage from './pages/Homepage';
+import PatentPage from './pages/PatentPage';
+import AboutUs from './pages/AboutUs';
 
-export default App
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/patent" element={<PatentPage />} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;

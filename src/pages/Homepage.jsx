@@ -29,7 +29,7 @@ const Homepage = () => {
             <div className="w-full sm:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-md rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-2">Restoration</h3>
-                <p>Restore old images to their former glory.</p>
+                <p>Restore your images to their former glory and make it more usable and understandable.</p>
               </div>
             </div>
             <div className="w-full sm:w-1/3 px-4 mb-8">
@@ -60,4 +60,3 @@ const Homepage = () => {
 };
 
 export default Homepage;
-    
