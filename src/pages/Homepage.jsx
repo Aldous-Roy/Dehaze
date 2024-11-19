@@ -1,16 +1,15 @@
 import React from 'react';
 import Comp from './Comp';
+
 const Homepage = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-light-gray">
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-20">
+      <section className="bg-teal-600 text-white py-20">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Clear Your Vision</h1>
-          <p className="text-lg mb-8">
-            Dehazing your images for a sharper and clearer view.
-          </p>
-          <button className="bg-white text-blue-600 py-2 px-4 rounded-lg font-semibold hover:bg-gray-200">
+          <p className="text-lg mb-8">Dehazing your images for a sharper and clearer view.</p>
+          <button className="bg-white text-teal-600 py-2 px-4 rounded-lg font-semibold hover:bg-gray-200">
             Get Started
           </button>
         </div>
@@ -44,15 +43,15 @@ const Homepage = () => {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-16 bg-gray-100">
-        <Comp/>
+      <section className="py-16 bg-light-gray">
+        <Comp />
       </section>
 
       {/* Call to Action Section */}
-      <section className="bg-blue-600 text-white py-16 text-center">
+      <section className="bg-teal-600 text-white py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">Transform Your Images Today</h2>
         <p className="mb-8">Experience the difference with our dehazing service!</p>
-        <button className="bg-white text-blue-600 py-2 px-4 rounded-lg font-semibold hover:bg-gray-200">
+        <button className="bg-white text-teal-600 py-2 px-4 rounded-lg font-semibold hover:bg-gray-200">
           Contact Us
         </button>
       </section>
@@ -61,3 +60,4 @@ const Homepage = () => {
 };
 
 export default Homepage;
+    
