@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import PatentPage from './pages/PatentPage';
 import AboutUs from './pages/AboutUs';
-
 const App = () => {
   return (
     <Router>
